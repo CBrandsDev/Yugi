@@ -16,7 +16,8 @@ public class App {
         Deck.addCard(Misairuzame);
         Deck.addCard(MonsterReborn);
         Deck.addCard(TrapHole);
-
+        
+        Deck.clean();
         Deck.setDeck();
 
         boolean index = false;
@@ -25,14 +26,19 @@ public class App {
             int pass = 0;
             pass = sc.nextInt();
             if(pass == 1) {
+                Deck.clean();
                 TimeWizard.setMonsterCard();
             } else if (pass == 2) {
+                Deck.clean();
                 BabyDragon.setMonsterCard();
             } else if(pass == 3) {
+                Deck.clean();
                 Misairuzame.setMonsterCard();
             } else if (pass == 4) {
+                Deck.clean();
                 MonsterReborn.setSpellCard();
             } else if (pass == 5) {
+                Deck.clean();
                 TrapHole.setTrapCard();
             } else if (pass == 9) {
                 System.exit(0);
