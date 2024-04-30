@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
-        MonsterCard TimeWizard = new MonsterCard("Time Wizard",4, 1200, 0700, "The ultimate wizard in terms of attack and defense.", "Spellcaster", "Dark");
+        MonsterCard TimeWizard = new MonsterCard("Time Wizard",4, 1200,  700, "The ultimate wizard in terms of attack and defense.", "Spellcaster", "Dark");
         MonsterCard BabyDragon = new MonsterCard("Baby Dragon",3, 2500, 2100, "Much more than just a child, this dragon is gifted with untapped power.", "Dragon", "wind");
         MonsterCard Misairuzame = new MonsterCard("Misairuzame",5, 1400, 1600, "A missile-launching fish protected by deadly spikes.", "Fish", "Water");
         SpellCard MonsterReborn = new SpellCard("Monster Reborn","Spell", "Target 1 monster in either GY; Special Summon it.");

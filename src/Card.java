@@ -5,9 +5,7 @@ public abstract class Card {
         name = n;
     }
     public void setCard(){
-        System.out.println("Card: ");
         System.out.println(name);
-        System.out.println("");
     }
     
 }

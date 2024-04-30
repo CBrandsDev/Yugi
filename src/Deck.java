@@ -36,6 +36,7 @@ public class Deck {
     }
 
     public void setDeck(){
+        System.out.println("DECK:");
         for(int k=0; k<index; k++){
             DK[k].setCard();
         }
