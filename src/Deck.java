@@ -3,7 +3,7 @@ public class Deck {
     private int index;
 
     public Deck() {
-        DK = new Card[5];
+        DK = new Card[40];
         index = 0;
     }
     public void addCard(Card C){
